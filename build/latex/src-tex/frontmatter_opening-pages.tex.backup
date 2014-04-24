@@ -1,0 +1,91 @@
+
+{\pagestyle{empty}
+
+{\raggedleft\setlength{\parskip}{1em}\setlength{\parindent}{0em}
+
+\vspace*{4\baselineskip}
+{\fontfamily{shaker2-light}\fontseries{m}\fontshape{n}\selectfont\titlepagetitlesize\color{chapter} \MakeUppercase{\bookTitle}%
+\par\vspace*{\baselineskip}\vspace*{-0.1\baselineskip} {\titlepageauthorsize%
+transcribed talks by\linebreak
+Ajahn Sundara\linebreak
+Ajahn Candasiri%
+}}
+
+\vfill
+
+{\fontfamily{shaker2-light}\fontseries{m}\fontshape{n}\selectfont%
+Published for free distribution by\\
+AMARAVATI PUBLICATIONS
+
+This book is available for free download at
+
+\vspace*{-0.8\baselineskip}%
+{\titlepagelinksize\href{http://www.forestsanghapublications.org/}{www.forestsanghapublications.org}}%
+
+}
+
+}
+
+\mbox{}\newpage\thispagestyle{empty}%
+\input{./src-tex/copyright.tex}
+
+\cleardoublepage
+
+\mbox{}\vspace*{-\headsep}
+
+\noindent%
+\begin{minipage}[c][\textheight][c]{\paperwidth}
+
+\noindent\hspace*{-20mm}%
+\begin{minipage}{\paperwidth}
+\centering
+
+{\itshape ``ADD QUOTE''\\
+\bigskip
+
+Ajahn ABCDEF}
+
+\end{minipage}
+
+\end{minipage}
+
+\clearpage\thispagestyle{empty}
+
+\input{./src-tex/dedication.tex}
+
+\cleardoublepage\thispagestyle{empty}
+
+\tableofcontents*
+
+\thispagestyle{empty}
+
+\cleardoublepage\thispagestyle{empty}
+
+
+\mbox{}\vspace*{-\headsep}
+
+\noindent%
+\begin{minipage}[c][\textheight][c]{\paperwidth}
+
+\noindent\hspace*{-20mm}%
+\begin{minipage}{\paperwidth}\setlength{\parskip}{1em}
+\centering
+
+{\itshape Dedicated to the memory of our parents:
+
+Jeanne \& Jean-Emile Reynaud
+
+Kathleen \& Norman Cockburn
+
+and to all the other\\
+wise teachers and friends\\
+who have shown us the Way.}
+
+\end{minipage}
+
+\end{minipage}
+
+% \clearpage
+
+% End of empty pagestyle
+}

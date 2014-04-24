@@ -1,0 +1,8 @@
+
+\newcommand{\bioname}[1]{{\chaptitlefont\color{chapter}\normalsize\MakeUppercase{\soChapter{#1}}}\hspace*{.3em}}
+
+\noindent\bioname{Ajahn Sundara} is French and was born in a liberal non-religious family. After studying dance, she worked for a few years as a dancer and teacher of contemporary dance. In her early thirties she encountered the Dhamma through Ajahn Sumedho's teachings and a 10 day retreat that he led in England. Her interest in Buddhist teachings grew, and in 1979 she joined monastic community of Chithurst Monastery where she was ordained as one of the first four women novices. In 1983 she was given the Going Forth as a \textit{s\={\i}ladhara} (ten precept nun) by Ajahn Sumedho. Since then she has participated in the establishment of the nuns' community, and for the last twenty years has taught and led meditation retreats in Europe and North America. She lives presently at Amaravati Buddhist Monastery.
+
+\vspace*{2\baselineskip}
+
+\noindent\bioname{Ajahn Candasiri} is Scottish by birth and, like Ajahn Sundara, was one of the first nuns to be ordained by Ajahn Sumedho at Chithurst Monastery. Having been raised as a Christian, she continues to appreciate contact with contemplative Christians and with those of other faiths. Recognizing the immense benefit -- both for herself and others -- that can come about through a life of renunciation, she has actively participated in the evolution of the training and in providing opportunities for women to experience this form of practice. For most of her monastic life she has been resident at either Cittaviveka or Amaravati Monasteries.

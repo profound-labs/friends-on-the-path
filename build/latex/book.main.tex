@@ -1,0 +1,98 @@
+\documentclass[11pt,twoside,final]{memoir}
+
+\newcommand{\bookTitle}{Friends on the Path}
+\newcommand{\bookAuthor}{}
+\newcommand{\bookISBN}{978-1-870205-24-5}
+
+\newcommand{\editioninfo}{%
+{\raggedright\par
+\textit{First edition}, 10,000 copies, printed in Malaysia -- 2011
+\par
+}}
+
+\title{\bookTitle}
+% \author{\bookAuthor}
+
+\usepackage{mylayout}
+
+\hyphenation{dan-ger our-selves knowing}
+
+\begin{document}
+
+\thispagestyle{empty}
+\mbox{}\newpage\thispagestyle{empty}
+\mbox{}
+\AddToShipoutPicture*{\put(\LenToUnit{1.2in},\LenToUnit{0.5in}){\includegraphics[width=50mm,keepaspectratio]{leaf_Emma_3_CMYK.png}}}
+\newpage
+
+\input{./src-tex/frontmatter_opening-pages.tex}
+
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+\chaptermark{Introduction}
+\input{./src-tex/intro.tex}
+
+\clearpage
+\input{./src-tex/biographies.tex}
+
+\chapterAuthor{Ajahn Candasiri}
+\chapter{Why Come to a Monastery?}
+\input{./src-tex/why-come-to-a-monastery_Candasiri.tex}
+
+\chapterAuthor{Ajahn Sundara}
+\chapter{Freedom Within Restraint}
+\input{./src-tex/freedom-within-restraint_Sundara.tex}
+
+\chapterAuthor{Ajahn Candasiri}
+\chapter{A Question of Balance}
+\input{./src-tex/question-of-balance_Candasiri.tex}
+
+\chapterAuthor{Ajahn Sundara}
+\chapter{Fearless Presence}
+\input{./src-tex/fearless-presence_Sundara.tex}
+
+\chapterAuthor{Ajahn Candasiri}
+\chapter{Jesus With Buddhist Eyes}
+\input{./src-tex/jesus-with-buddhist-eyes_Candasiri.tex}
+
+\chapterAuthor{Ajahn Sundara}
+\chapter{The Knowing Mind}
+\input{./src-tex/knowing-mind_Sundara.tex}
+
+\chapterAuthor{Ajahn Candasiri}
+\chapter{Me First}
+\input{./src-tex/me-first_Candasiri.tex}
+
+\chapterAuthor{Ajahn Sundara}
+\chapter{Simplicity}
+\input{./src-tex/simplicity_Sundara.tex}
+
+\chapterAuthor{Ajahn Sundara}
+\chapter{Taking Refuge}
+\input{./src-tex/taking-refuge_Sundara.tex}
+
+\chapterAuthor{Ajahn Candasiri}
+\chapter{One Time \ldots{}}
+\input{./src-tex/one-time_Candasiri.tex}
+
+\newlength{\templength}\setlength{\templength}{\beforechapskip}
+\addtolength{\beforechapskip}{-3\baselineskip}
+
+\chapter*{Sources of Talks}
+\addcontentsline{toc}{chapter}{Sources of Talks}
+\input{./src-tex/sources.tex}
+
+\setlength{\beforechapskip}{\templength}
+
+\cleardoublepage
+\thispagestyle{empty}
+\input{./src-tex/for-free-distribution.tex}
+
+\clearpage
+\thispagestyle{customplain}
+\input{./src-tex/cc-details.tex}
+
+\newpage\mbox{}\thispagestyle{empty}
+\newpage\mbox{}\thispagestyle{empty}
+
+\end{document}
